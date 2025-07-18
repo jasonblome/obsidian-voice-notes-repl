@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "note-taker"
+version = "0.1.0"
+description = ""
+authors = ["Jason Blome <jason.blome@stoneridgeam.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+typer = "^0.16.0"
+rich = "^14.0.0"
+openai = "^1.97.0"
+sounddevice = "^0.5.2"
+numpy = "^2.3.1"
+scipy = "^1.16.0"
+keyboard = "^0.13.5"
+rapidfuzz = "^3.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
